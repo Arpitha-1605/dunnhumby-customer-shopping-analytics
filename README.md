@@ -483,6 +483,39 @@ This project provides practical experience in:
 - Experimental evaluation of data storage formats.
 - Technical documentation and reproducible workflows.
 
+## Project Documentation
+
+Explore the documentation and scripts below.
+
+| File | Description |
+|---|---|
+| [`docs/INSTALLATION.md`](docs/INSTALLATION.md) | Environment installation and setup guide |
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Project architecture and workflow |
+| [`docs/RCFILE_VS_TEXTFILE.md`](docs/RCFILE_VS_TEXTFILE.md) | Comparison of Hive storage formats |
+| [`docs/EXECUTION_CHECKLIST.md`](docs/EXECUTION_CHECKLIST.md) | Project execution and verification checklist |
+| [`data/README.md`](data/README.md) | Dunnhumby dataset guide |
+| [`hive/create_tables.sql`](hive/create_tables.sql) | Starter Hive table definition |
+| [`hive/analysis_queries.sql`](hive/analysis_queries.sql) | Hive retail analytics queries |
+| [`mongodb/analysis_queries.js`](mongodb/analysis_queries.js) | MongoDB aggregation queries |
+| [`results/README.md`](results/README.md) | Experimental results and observations |
+
+## Project Status
+
+- **Documentation:** Prepared in the repository.
+- **Hive and MongoDB scripts:** Added as starter scripts; verify against the actual data and schema.
+- **TextFile vs RCFile experiment:** Measurements pending verification.
+- **Distributed Hadoop execution:** Record the actual lab configuration and successful test evidence before claiming completion.
+
+## Reproducibility
+
+Commands, table schemas, and query scripts must be checked against the installed software versions and actual dataset structure. Report only results that have been successfully reproduced and verified.
+
+## Future Improvements
+
+- Add verified query outputs and screenshots.
+- Record storage-size and query-time measurements.
+- Add troubleshooting notes for Hadoop, Hive, and MongoDB.
+- Document the actual master and worker configurations used in the lab.
 ## 17. References
 
 - [Apache Hadoop Documentation](https://hadoop.apache.org/docs/)
